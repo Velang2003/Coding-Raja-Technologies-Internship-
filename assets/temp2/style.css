@@ -1,0 +1,93 @@
+body {
+            font-family: Arial, sans-serif;
+          
+        }
+        .container-fluid {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            background-color: #FFFFFFFF;
+        }
+        .header {
+            padding: 20px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .header h3 {
+            margin: 0;
+            color: #6c757d;
+        }
+        .experience {
+            padding: 20px;
+        }
+        .work {
+            margin-bottom: 20px;
+        }
+        .work h2 {
+            margin: 0;
+            color: #007bff;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+        }
+        .col {
+            position: relative;
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+        .col-6 {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+        .post {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .company h3 {
+            margin: 0;
+            color: #6c757d;
+        }
+        .date h3 {
+            margin: 0;
+            color: #6c757d;
+        }
+        hr {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .skills h4 {
+            margin: 0;
+            color: #6c757d;
+        }
+        .jpg{
+            background-color: #FF0003FF;
+            color: #fff;
+        }
+        
+.button{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#print-button{
+    width: 200px;
+    height: 90px;
+    font-size: 20px;
+}
+
+@media print {
+  #print-button {
+    display: none;
+  }
+  .button{
+      display: none;
+  }
+}
