@@ -4,43 +4,55 @@
     box-sizing: border-box;
 }
 body{
-    font-family: "Bitter", serif;
-    background-color: #EEF4ED;
+   background-color: #EAE0D5;
+  
 }
-h3, h2, h4{
-    color: #0B2545;
+ h2, h4{
+    color: #0A0908;
+    font-family: "Bebas Neue";
+    font-weight: 200;
+    border-bottom: 2px solid black;
+    margin-bottom: 5px;
+   
 }
 p{
-    color: #13315C;
-}
-.main-page{
+    color: #22333B;
+    font-family: "Poppins";
+    font-weight: 300;
    
-    /*max-width: 1440px;*/
 }
 
 header{
-  border-bottom: 1px solid #134074;  
+  border-bottom: 1px solid #5E503F;  
   width: 100%;
   height: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #8DA9C4;
+  background-color: #C6AC8F;
 }
-
+.author{
+    font-family: "Dancing Script",serif;
+    font-weight: 700;
+}
 header p{
     font-size: 10px;
 }
 
 header p a , footer a{
     text-decoration: none;
-    color: #0B2545;
+   color: #0B2545;
     border-bottom: 1px solid black;
 }
 
 header h3{
     border-bottom: 1px solid black;
+    font-family: "Playfair Display";
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: 800;
+    color: #0A0908;
 }
 
 /* content section starts */
@@ -138,14 +150,21 @@ footer{
     bottom: 0;
     width: 100%;
     height: 50px;
-    background-color: #8DA9C4;
+    background-color: #5E503F;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  
 }
 
 footer p{
     font-size: 10px;
+    color: #EAE0D5;
 }
 
+footer p a{
+   color: #EAE0D5;
+}
+
+    
