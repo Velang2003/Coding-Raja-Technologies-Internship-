@@ -7,7 +7,7 @@ This project is a web-based resume builder I created during my internship with C
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/Velang2003/Coding-Raja-Technologies-Internship/
+   git clone https://github.com/Velang2003/Coding-Raja-Technologies-Internship-.git
    ```
 
 2. **Open the Project:**
@@ -27,22 +27,17 @@ This project is a web-based resume builder I created during my internship with C
 
 **Note:**
 
-This is a basic implementation of a contenteditable resume builder. You can extend it further by adding features like:
+This is a basic implementation of a contenteditable resume builder. I may extend it further by adding features like:
 
 * Pre-defined resume templates
 * Section reordering
-* Skill and experience input fields
+* Adding Profile picture 
 
 I hope this project serves as a good starting point for my web development journey!
 
-**Further Resources:**
-
-* **Content Editable Attribute:** - contentEditable attribute allows users to click on the text which directly enables the users to type on the template.
-* **JavaScript PDF Generation Libraries:** - for download as PDF feature.
-
 **About Coding Raja Internship:**
 
-During this period, I learnt more in html, Css and JS.
+During this period, I learnt more in HTML, CSS and JAVASCRIPT.
 This Internship boosted my creativity and problem solving methodology.
 
-I look forward to your contributions and improvements to this project!
+I look forward to contributions and improvements to this project!
