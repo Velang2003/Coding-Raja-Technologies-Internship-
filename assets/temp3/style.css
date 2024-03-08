@@ -1,0 +1,119 @@
+
+
+@media print{
+    @page{
+        size:letter;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.resume{
+    padding: 5%;
+    background-color: #fff;
+}
+header, .summary, .skills , .experience h3, .education h3, .cc h3, .hobby h3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+header ul , .skills ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.skills ul{
+    justify-content: left;
+    width: 100%;
+}
+
+header ul li , .skills ul li , .skills ul p{
+    font-size: 15px;
+    margin: 0 5px;
+    text-decoration: none;
+    padding: 0 5px;
+}
+
+p{
+    font-size: 15px;
+}
+
+.skills ul li , .skills ul p{
+    
+    justify-content: space-between;
+    padding: 2px 5px;
+}
+
+ul li{
+    font-size: 15px;
+}
+
+.experience ul li{
+    margin-left: 10px;
+}
+.company, .post{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.edu{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.college, .subject{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.h{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.hob{
+    width: 33%;
+}
+
+.hobby h3{
+    margin-bottom: 20px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#print-button{
+    width: 200px;
+    height: 90px;
+    font-size: 20px;
+    background-color: #006cff;
+    color: #fff;
+    border-radius: 10px;
+}
+
+@media print {
+  #print-button {
+    display: none;
+  }
+  .button{
+      display: none;
+  }
+}
+
